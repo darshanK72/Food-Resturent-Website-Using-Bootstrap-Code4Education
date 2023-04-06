@@ -185,6 +185,11 @@ p{
     margin-bottom: 8.25rem;
 }
 
+.wrapper-p{
+    padding-top: 5.25rem;
+    padding-bottom: 5.25rem;
+}
+
 .text-content{
     width: 70%;
     margin: auto;
@@ -350,6 +355,58 @@ p{
     opacity: 0.6;
 }
 
+
+/*=============================================
+=            Testemonials            =
+=============================================*/
+
+#testemonials {
+    background-color: var(--primary-color);
+}
+
+#testemonials h2{
+    color: var(--white-color) !important;
+}
+
+#testemonials .carousel-item{
+    margin-top: 3rem;
+    padding: 3rem;
+    background-color: var(--white-color);
+    border-radius: 1rem;
+}
+
+#testemonials .carousel-item img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+/*=============================================
+=            Paraled            =
+=============================================*/
+
+#paralex{
+    background-image: url("../img/bg-3.jpg");
+    padding: 3rem 8rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#paralex h2{
+    font-size: 1.3rem !important;
+    line-height: 1.34 !important;
+    text-align: center;
+    color: var(--white-color) !important;
+    
+    
+}
+
+
+
+
+
 /*=============================================
 =        Responsiveness Below (768px)          =
 =============================================*/
@@ -371,6 +428,14 @@ p{
         padding-left: 0.8rem !important;
         padding-right: 0.8rem !important;
     }
+
+    .wrapper-p{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
+    }
+    
 
     h1{
         font-size: 2.4rem !important;

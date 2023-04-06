@@ -428,6 +428,11 @@ header{
 
 #footer p{
     font-size: 1.2rem;
+    margin-bottom: 0px !important;
+}
+
+#footer i{
+    font-size: 2rem;
 }
 /*=============================================
 =        Responsiveness Below (768px)          =

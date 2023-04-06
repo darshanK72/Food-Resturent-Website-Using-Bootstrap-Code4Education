@@ -286,6 +286,10 @@ p{
     border-radius: 0.625rem;
 }
 
+#about .text-sec{
+    padding-left: 2rem;
+}
+
 
 
 /*=============================================
@@ -293,10 +297,58 @@ p{
 =============================================*/
 
 
+#about .food-wrapper ul li{
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+#about .food-wrapper ul li i{
+    font-size: 1rem;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding-right: 1rem;
+}
 
 
+/*=============================================
+=            Story                           =
+=============================================*/
+
+.story{
+    background-image: url("../img/bg-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+}
 
 
+/*=============================================
+=            Food            =
+=============================================*/
+
+
+#explore .container .card{
+    border: none;
+}
+
+.card img{
+    border-radius: 0.524rem;
+}
+
+.card span{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+
+.card span del{
+    color: var(--primary-color);
+    opacity: 0.6;
+}
 
 /*=============================================
 =        Responsiveness Below (768px)          =
@@ -309,15 +361,15 @@ p{
     }
 
     .top-home{
-        padding: 10.25rem  0 4.25rem !important;
+        padding: 12.25rem  0 12.25rem !important;
     
     }
 
     .wrapper{
         margin-top: 3rem;
         margin-bottom: 3rem;
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
     }
 
     h1{
